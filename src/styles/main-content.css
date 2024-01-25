@@ -17,7 +17,7 @@
 
 .header__navigation .navigation{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -89,3 +89,38 @@
     border-radius: 40px;
 }
 
+.main-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 1955px;
+}
+
+.main-content__navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content__navigation .main-content__title , .main-content__subtitle{
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 600px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.main-content .main-playlist{
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+
+
+img{
+    width: 140px;
+}
